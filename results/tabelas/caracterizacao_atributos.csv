@@ -1,0 +1,32 @@
+atributo,tipo,valores,faltantes,valor_dominante,pct_dominante,distribuicao
+having_IP_Address,nominal binário,"{-1, 1}",0,1,65.69,-1: 3793; 1: 7262
+URL_Length,nominal ordinal (3 níveis),"{-1, 0, 1}",0,-1,81.05,-1: 8960; 0: 135; 1: 1960
+Shortining_Service,nominal binário,"{-1, 1}",0,1,86.94,-1: 1444; 1: 9611
+having_At_Symbol,nominal binário,"{-1, 1}",0,1,85.03,-1: 1655; 1: 9400
+double_slash_redirecting,nominal binário,"{-1, 1}",0,1,87.07,-1: 1429; 1: 9626
+Prefix_Suffix,nominal binário,"{-1, 1}",0,-1,86.75,-1: 9590; 1: 1465
+having_Sub_Domain,nominal ordinal (3 níveis),"{-1, 0, 1}",0,1,36.82,-1: 3363; 0: 3622; 1: 4070
+SSLfinal_State,nominal ordinal (3 níveis),"{-1, 0, 1}",0,1,57.27,-1: 3557; 0: 1167; 1: 6331
+Domain_registeration_length,nominal binário,"{-1, 1}",0,-1,66.84,-1: 7389; 1: 3666
+Favicon,nominal binário,"{-1, 1}",0,1,81.43,-1: 2053; 1: 9002
+port,nominal binário,"{-1, 1}",0,1,86.41,-1: 1502; 1: 9553
+HTTPS_token,nominal binário,"{-1, 1}",0,1,83.75,-1: 1796; 1: 9259
+Request_URL,nominal binário,"{-1, 1}",0,1,59.34,-1: 4495; 1: 6560
+URL_of_Anchor,nominal ordinal (3 níveis),"{-1, 0, 1}",0,0,48.28,-1: 3282; 0: 5337; 1: 2436
+Links_in_tags,nominal ordinal (3 níveis),"{-1, 0, 1}",0,0,40.24,-1: 3956; 0: 4449; 1: 2650
+SFH,nominal ordinal (3 níveis),"{-1, 0, 1}",0,-1,76.35,-1: 8440; 0: 761; 1: 1854
+Submitting_to_email,nominal binário,"{-1, 1}",0,1,81.78,-1: 2014; 1: 9041
+Abnormal_URL,nominal binário,"{-1, 1}",0,1,85.26,-1: 1629; 1: 9426
+Redirect,nominal binário,"{0, 1}",0,0,88.43,0: 9776; 1: 1279
+on_mouseover,nominal binário,"{-1, 1}",0,1,88.1,-1: 1315; 1: 9740
+RightClick,nominal binário,"{-1, 1}",0,1,95.69,-1: 476; 1: 10579
+popUpWidnow,nominal binário,"{-1, 1}",0,1,80.67,-1: 2137; 1: 8918
+Iframe,nominal binário,"{-1, 1}",0,1,90.85,-1: 1012; 1: 10043
+age_of_domain,nominal binário,"{-1, 1}",0,1,53.06,-1: 5189; 1: 5866
+DNSRecord,nominal binário,"{-1, 1}",0,1,68.86,-1: 3443; 1: 7612
+web_traffic,nominal ordinal (3 níveis),"{-1, 0, 1}",0,1,52.75,-1: 2655; 0: 2569; 1: 5831
+Page_Rank,nominal binário,"{-1, 1}",0,-1,74.18,-1: 8201; 1: 2854
+Google_Index,nominal binário,"{-1, 1}",0,1,86.08,-1: 1539; 1: 9516
+Links_pointing_to_page,nominal ordinal (3 níveis),"{-1, 0, 1}",0,0,55.69,-1: 548; 0: 6156; 1: 4351
+Statistical_report,nominal binário,"{-1, 1}",0,1,85.98,-1: 1550; 1: 9505
+Result,nominal (classe),"{-1, 1}",0,1,55.69,-1: 4898; 1: 6157

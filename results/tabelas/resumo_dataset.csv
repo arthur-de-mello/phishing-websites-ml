@@ -1,0 +1,9 @@
+item,valor
+Instâncias,11055
+Atributos preditores,30
+Atributo classe,"Result (-1 = phishing, 1 = legítimo)"
+Atributos com valores faltando,0
+Atributo mais desbalanceado,RightClick (95.69% = 1)
+Classe phishing,4898
+Classe legítimo,6157
+Linhas duplicadas,5206

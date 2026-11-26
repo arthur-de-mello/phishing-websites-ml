@@ -1,0 +1,7 @@
+2026-11-15 22:59:44,433 | INFO | Instâncias: 11055 | Atributos: 31 (30 preditores + 1 classe)
+2026-11-15 22:59:44,450 | INFO | Atributos com valores faltando: 0
+2026-11-15 22:59:44,452 | INFO | Atributo mais desbalanceado: RightClick (valor 1 em 95.69% das instâncias)
+2026-11-15 22:59:44,455 | INFO | Distribuição da classe: {'legitimo': 6157, 'phishing': 4898}
+2026-11-15 22:59:44,461 | INFO | Linhas duplicadas (idênticas a outra): 5206 (47.1%)
+2026-11-15 22:59:44,483 | INFO | Top 5 correlações com a classe: {'SSLfinal_State': 0.715, 'URL_of_Anchor': 0.693, 'Prefix_Suffix': 0.349, 'web_traffic': 0.346, 'having_Sub_Domain': 0.298}
+2026-11-15 22:59:44,894 | INFO | Tabelas e figuras salvas em results/

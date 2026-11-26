@@ -1,0 +1,3 @@
+2026-11-15 23:00:27,848 | INFO | v1_original: 11055 instâncias x 30 atributos preditores | classe: {'legitimo': 6157, 'phishing': 4898}
+2026-11-15 23:00:27,942 | INFO | v2_onehot: 11055 instâncias x 68 atributos preditores | classe: {'legitimo': 6157, 'phishing': 4898}
+2026-11-15 23:00:27,977 | INFO | v3_sem_duplicatas: 5849 instâncias x 30 atributos preditores | classe: {'phishing': 3019, 'legitimo': 2830}

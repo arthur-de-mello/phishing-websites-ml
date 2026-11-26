@@ -1,0 +1,23 @@
+2026-11-15 23:00:52,220 | INFO | === V1 – Original: 11055 instâncias, 30 atributos ===
+2026-11-15 23:00:52,540 | INFO | Árvore de Decisão          acc=0.9660 prec=0.9668 rec=0.9644 f1=0.9654 treino=0.0208s (média/fold)
+2026-11-15 23:00:52,816 | INFO |    matriz de confusão (linhas=real ['phishing', 'legitimo']): [[4655, 243], [133, 6024]]
+2026-11-15 23:00:53,108 | INFO | Naive Bayes (categórico)   acc=0.9294 prec=0.9303 rec=0.9267 f1=0.9281 treino=0.0179s (média/fold)
+2026-11-15 23:00:53,361 | INFO |    matriz de confusão (linhas=real ['phishing', 'legitimo']): [[4423, 475], [306, 5851]]
+2026-11-15 23:00:54,755 | INFO | KNN (k=5)                  acc=0.9489 prec=0.9490 rec=0.9474 f1=0.9481 treino=0.0064s (média/fold)
+2026-11-15 23:00:56,108 | INFO |    matriz de confusão (linhas=real ['phishing', 'legitimo']): [[4578, 320], [245, 5912]]
+2026-11-15 23:00:56,149 | INFO | === V2 – One-hot: 11055 instâncias, 68 atributos ===
+2026-11-15 23:00:56,613 | INFO | Árvore de Decisão          acc=0.9673 prec=0.9681 rec=0.9657 f1=0.9667 treino=0.0357s (média/fold)
+2026-11-15 23:00:57,059 | INFO |    matriz de confusão (linhas=real ['phishing', 'legitimo']): [[4663, 235], [127, 6030]]
+2026-11-15 23:00:57,476 | INFO | Naive Bayes (categórico)   acc=0.9289 prec=0.9288 rec=0.9272 f1=0.9278 treino=0.0296s (média/fold)
+2026-11-15 23:00:57,837 | INFO |    matriz de confusão (linhas=real ['phishing', 'legitimo']): [[4467, 431], [355, 5802]]
+2026-11-15 23:00:59,416 | INFO | KNN (k=5)                  acc=0.9600 prec=0.9610 rec=0.9581 f1=0.9594 treino=0.0093s (média/fold)
+2026-11-15 23:01:00,889 | INFO |    matriz de confusão (linhas=real ['phishing', 'legitimo']): [[4611, 287], [155, 6002]]
+2026-11-15 23:01:00,903 | INFO | === V3 – Sem duplicatas: 5849 instâncias, 30 atributos ===
+2026-11-15 23:01:01,083 | INFO | Árvore de Decisão          acc=0.9255 prec=0.9255 rec=0.9256 f1=0.9254 treino=0.0109s (média/fold)
+2026-11-15 23:01:01,227 | INFO |    matriz de confusão (linhas=real ['phishing', 'legitimo']): [[2778, 241], [195, 2635]]
+2026-11-15 23:01:01,402 | INFO | Naive Bayes (categórico)   acc=0.9275 prec=0.9275 rec=0.9279 f1=0.9275 treino=0.0102s (média/fold)
+2026-11-15 23:01:01,542 | INFO |    matriz de confusão (linhas=real ['phishing', 'legitimo']): [[2769, 250], [174, 2656]]
+2026-11-15 23:01:01,906 | INFO | KNN (k=5)                  acc=0.9210 prec=0.9214 rec=0.9207 f1=0.9209 treino=0.0036s (média/fold)
+2026-11-15 23:01:02,290 | INFO |    matriz de confusão (linhas=real ['phishing', 'legitimo']): [[2807, 212], [250, 2580]]
+2026-11-15 23:01:02,301 | INFO | Melhor: Árvore de Decisão / V2 – One-hot (F1=0.9667) | Pior: KNN (k=5) / V3 – Sem duplicatas (F1=0.9209)
+2026-11-15 23:01:02,454 | INFO | Resultados salvos em results/tabelas e results/figuras
